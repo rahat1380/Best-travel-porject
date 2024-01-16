@@ -12,14 +12,15 @@
     width: 174px;
     height: 52px;
     color: #FFF;
-text-align: center;
-font-size: 1.2rem;
-font-weight: 800;
-border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border: none;
 }
 
 /* header styles */
-header, menu{
+header,
+menu {
     padding: 50px 135px;
 }
 
@@ -141,18 +142,18 @@ nav ul li a {
 /* tours sections styles */
 .teams-container {
     display: flex;
-  gap:10px;
+    gap: 10px;
 
 }
 
 .teams-content {
     width: 700px;
-   
+
 }
 
 .tours-img-container {
     width: 100%;
-   
+
 
 }
 
@@ -162,6 +163,7 @@ nav ul li a {
     font-size: 2.5rem;
     font-weight: 800;
 }
+
 .tours-discription {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
@@ -169,118 +171,207 @@ nav ul li a {
 }
 
 
-.fast-colom{
+.fast-colom {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
-}
-.secend-colom{
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-.thard-colom{
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-.Destination-content{
-    text-align: center;
- 
 }
 
-.common-discription{
+.secend-colom {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.thard-colom {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.Destination-content {
+    text-align: center;
+
+}
+
+.common-discription {
     text-align: center;
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
-  width: 650px;
-  margin: 0px auto;
-  margin-bottom: 20px;
-    
+    width: 650px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+
 }
 
-.card-1{
-width: 573px;
-height: 284px;
-padding: 32px;
-border-radius: 16px;
-border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-gap
-}
-.card-2{
+.card-1 {
     width: 573px;
     height: 284px;
     padding: 32px;
     border-radius: 16px;
     border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-    }
-    .card-3{
-        width: 573px;
-        height: 284px;
-        padding: 32px;
-        border-radius: 16px;
-        border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-        }
-.card-titel{
-    color: #131318;
-font-size: 1.9rem;
-font-weight: 800;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-right: 20px;
+}
+
+.card-2 {
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 
 }
-.card-discription{
+
+.card-3 {
+    width: 573px;
+    height: 284px;
+    padding: 32px;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-top: 20px;
+  
+}
+
+.card-titel {
+    color: #131318;
+    font-size: 1.9rem;
+    font-weight: 800;
+
+}
+
+.card-discription {
     width: 486px;
     color: #5A5A5D;
-font-size: 1rem;
-font-weight: 400;
+    font-size: 1rem;
+    font-weight: 400;
 }
-.card-fast-colom{
+
+.card-fast-colom {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 
 }
-.discount-card{
+
+.discount-card {
     width: 550px;
-height: 389px;
-border-radius: 16px;
-border: 2px solid #FFF;
- background: rgba(255, 255, 255, 0.80); 
-backdrop-filter: blur(2.5px);
-margin:55px 55px 555px 500px ;
-padding-left: 50px;
-position: absolute;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: 55px 55px 555px 500px;
+    padding-left: 50px;
+    position: absolute;
 }
-.card-m{
-    margin:55px 500px 555px 55px ;  
+
+.card-m {
+    margin: 55px 500px 555px 55px;
 }
-.iconbar ul { 
+
+.iconbar ul {
     display: flex;
-    
+
 
 }
-.iconbar ul li { 
+
+.iconbar ul li {
     display: flex;
     list-style: none;
     margin: 20px;
 
 }
 
-.discount-card-img{
-   border-radius: 16px;
-    background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat; ;
+.discount-card-img {
+    border-radius: 16px;
+    background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat;
+    ;
     width: 1170px;
-height: 500px;
-position: relative;
-margin-top: 20px;
-margin-bottom: 20px;
+    height: 500px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.rigt-bg{
+    background: url(Images/Group\ 40.png), lightgray 50% / cover no-repeat;
+    ;
+    
+}
+/* place section style */
+.sub-discription {
+    color: #131318;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+
 }
 
+.place-section {
+    display: flex;
+}
+
+.plece-img {
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+/* footer section */
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+
+    text-align: center;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 1440px;
+    height: 502px;
+}
+
+footer h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+footer .social {
+    display: flex;
+    padding: 20px 0;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-hr {
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.futter-discription{
+    color: #5A5A5D;
+
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+}
+.copiright-discription{
+    color: #131318;
+font-size: 1rem;
+font-weight: 300;
+}
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 600px) {
