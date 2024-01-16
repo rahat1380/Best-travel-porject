@@ -252,15 +252,33 @@ border-radius: 16px;
 border: 2px solid #FFF;
  background: rgba(255, 255, 255, 0.80); 
 backdrop-filter: blur(2.5px);
-margin:60px 77px 50px 50px ;
+margin:55px 55px 555px 500px ;
+padding-left: 50px;
+position: absolute;
 }
-.dat{ float: left;
+.card-m{
+    margin:55px 500px 555px 55px ;  
+}
+.iconbar ul { 
     display: flex;
+    
 
 }
+.iconbar ul li { 
+    display: flex;
+    list-style: none;
+    margin: 20px;
+
+}
+
 .discount-card-img{
    border-radius: 16px;
     background: url(Images/Group\ 39.png), lightgray 50% / cover no-repeat; ;
+    width: 1170px;
+height: 500px;
+position: relative;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 /* responsive media queries */
